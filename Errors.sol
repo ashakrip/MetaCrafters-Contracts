@@ -1,7 +1,7 @@
 //SPDX-License-Identifier: UNLICENSED;
 pragma solidity ^0.8.13;
 
-contract Error {
+contract Errors {
     function testRequire(uint256 _amt) public pure {
         require(_amt > 100, "Minimum input of 100 required");
     }
