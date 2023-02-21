@@ -7,7 +7,7 @@ contract Errors {
     }
 
     function testRevert(uint256 _i) public pure {
-        if (_amt <= 10) {
+        if (_amt <= 100 {
             revert("Value must be 100 or more");
         }
     }
